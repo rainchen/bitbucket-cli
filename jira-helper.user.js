@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Jira: helper
 // @namespace    https://github.com/rainchen/bitbucket-cli/blob/master/jira-helper.js
-// @version      0.1.0
+// @version      0.1.1
 // @description  features: 1. copy issue key and title for creating git branch
 // @author       Rain Chen
 // @license      MIT
@@ -9,8 +9,8 @@
 // @match        https://*.atlassian.net/browse/*
 // @grant        none
 
-// @require      https://cdn.jsdelivr.net/npm/clipboard@1/dist/clipboard.min.js
-// @require      https://rawgit.com/notifyjs/notifyjs/master/dist/notify.js
+// @require      https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.7.1/clipboard.min.js
+// @require      https://cdnjs.cloudflare.com/ajax/libs/notify/0.4.2/notify.min.js
 
 // ==/UserScript==
 

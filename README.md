@@ -6,7 +6,7 @@ Some useful shell functions for creating git branch, sending pull request on Bit
 
 1. clone code
 
-`git clone https://github.com/rainchen/bitbucket-cli.git`
+    `git clone https://github.com/rainchen/bitbucket-cli.git`
 
 2. setup shell
 
@@ -57,6 +57,28 @@ Some useful shell functions for creating git branch, sending pull request on Bit
 * `bitbucket-delete-remote-branch`
 
     delete a remote branch, use it to delete the branch was merged in a pull request
+
+## Jira Helper
+
+[jira-helper.user.js]() is a Jira helper usercript, it enhances Jira web UI.
+
+### Features:
+
+* added a "Copy issue title" button, to copy issue key and title for creating git branch and git commit message.
+
+    - add copy button on issue browser page:
+    
+        ![add copy button on issue browser page](https://user-images.githubusercontent.com/71397/41328743-4b7078a8-6efc-11e8-9886-2eef18e3441f.png)
+    
+    - add copy button on RapidBoard page:
+    
+        ![add copy button on RapidBoard page](https://user-images.githubusercontent.com/71397/41328760-6313a1c4-6efc-11e8-8ffe-b695f417e650.png)
+
+
+### Install Jira Helper
+
+1. install Chrome extension [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
+2. install this script: [https://github.com/rainchen/bitbucket-cli/raw/master/jira-helper.user.js](https://github.com/rainchen/bitbucket-cli/raw/master/jira-helper.user.js)
 
 ## License
 

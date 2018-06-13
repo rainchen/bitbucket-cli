@@ -4,19 +4,24 @@ Some useful shell functions for creating git branch, sending pull request on Bit
 
 ## Install
 
-1. clone code
+1. Clone code
 
-    `git clone https://github.com/rainchen/bitbucket-cli.git`
+    1. `mkdir ~/bin/; cd ~/bin/`
+    2. `git clone https://github.com/rainchen/bitbucket-cli.git`
+    
+    NOTE: if you change the clone path, you need to change `source` path in your shell startup file in next step.
 
-2. setup shell
+2. Setup shell
 
-  - for Bash shell
+  - for Bash shell user
 
-        append `source path-to-bitbucket-cli/bitbucket-functions.sh` to `~/.bash_profile`
+        1. update Bash shell startup file: append `source ~/bin/bitbucket-cli/bitbucket-functions.sh` to `~/.bash_profile`
+        2. activate: open a new Terminal window or run `source ~/.bash_profile` in your current Terminal window.
 
-  - for Fish shell
+  - for Fish shell user
 
-        append `source path-to-bitbucket-cli/bitbucket-functions.fish` to `~/.config/fish/config.fish`
+        1. update Fish shell startup file: append `source ~/bin/bitbucket-cli/bitbucket-functions.fish` to `~/.config/fish/config.fish`
+        2. activate: open a new Terminal window or run `source ~/.config/fish/config.fish` in your current Terminal window.
 
 ## Usage
 

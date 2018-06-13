@@ -1,9 +1,10 @@
 // ==UserScript==
 // @name         Jira: helper
-// @namespace    http://tampermonkey.net/
-// @version      0.1
+// @namespace    https://github.com/rainchen/bitbucket-cli/blob/master/jira-helper.js
+// @version      0.1.0
 // @description  features: 1. copy issue key and title for creating git branch
 // @author       Rain Chen
+// @license      MIT
 // @match        https://*.atlassian.net/secure/*
 // @match        https://*.atlassian.net/browse/*
 // @grant        none

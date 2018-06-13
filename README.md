@@ -78,7 +78,9 @@ Some useful shell functions for creating git branch, sending pull request on Bit
 ### Install Jira Helper
 
 1. install Chrome extension [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
-2. install this script: [https://github.com/rainchen/bitbucket-cli/raw/master/jira-helper.user.js](https://github.com/rainchen/bitbucket-cli/raw/master/jira-helper.user.js)
+2. install this script: 
+    * on Greasyfork: [https://greasyfork.org/en/scripts/369468-jira-helper](https://greasyfork.org/en/scripts/369468-jira-helper) (recommended, auto updated) 
+    * or Github: [https://github.com/rainchen/bitbucket-cli/raw/master/jira-helper.user.js](https://github.com/rainchen/bitbucket-cli/raw/master/jira-helper.user.js)
 
 ## License
 

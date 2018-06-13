@@ -15,13 +15,13 @@ Some useful shell functions for creating git branch, sending pull request on Bit
 
   - for Bash shell user
 
-        1. update Bash shell startup file: append `source ~/bin/bitbucket-cli/bitbucket-functions.sh` to `~/.bash_profile`
-        2. activate: open a new Terminal window or run `source ~/.bash_profile` in your current Terminal window.
+      1. update Bash shell startup file: append `source ~/bin/bitbucket-cli/bitbucket-functions.sh` to `~/.bash_profile`
+      2. activate: open a new Terminal window or run `source ~/.bash_profile` in your current Terminal window.
 
   - for Fish shell user
 
-        1. update Fish shell startup file: append `source ~/bin/bitbucket-cli/bitbucket-functions.fish` to `~/.config/fish/config.fish`
-        2. activate: open a new Terminal window or run `source ~/.config/fish/config.fish` in your current Terminal window.
+      1. update Fish shell startup file: append `source ~/bin/bitbucket-cli/bitbucket-functions.fish` to `~/.config/fish/config.fish`
+      2. activate: open a new Terminal window or run `source ~/.config/fish/config.fish` in your current Terminal window.
 
 ## Usage
 
@@ -67,7 +67,7 @@ cd to your local project dir which is hosting on Bitbucket, then you can run the
 
 ## Jira Helper
 
-[jira-helper.user.js]() is a Jira helper usercript, it enhances Jira web UI.
+[jira-helper.user.js](jira-helper.user.js) is a Jira helper usercript, it enhances Jira web UI.
 
 ### Features:
 

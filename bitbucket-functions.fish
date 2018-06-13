@@ -62,7 +62,7 @@ function bitbucket-new-branch -d "create a new branch which name is using dasher
 
   function create_branch
     set -l branch_name $argv[1]
-    echo git checkout -b $branch_name
+    git checkout -b $branch_name
   end
 
   # main
@@ -103,7 +103,7 @@ function bitbucket-send-pull-request -d "use current branch to send pull request
   set -l bitbucket_pr_url "https://bitbucket.com/$bitbucket_user/$bitbucket_repo/pull-requests/new?source=$current_branch&dest=$base_branch"
   echo "Prepare sending Pull Request from $current_branch to $base_branch"
   echo $bitbucket_pr_url
-  echo open $bitbucket_pr_url
+  open $bitbucket_pr_url
 end
 
 alias bitbucket-send-pull-request-to-develop='bitbucket-send-pull-request develop'

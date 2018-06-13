@@ -25,11 +25,13 @@ Some useful shell functions for creating git branch, sending pull request on Bit
 
 ## Usage
 
+cd to your local project dir which is hosting on Bitbucket, then you can run these commands:
+
 * `bitbucket-open`
 
     open bitbucket page for current repo
 
-* `bitbucket-new-branch`
+* `bitbucket-new-branch "issue title"`
 
     create a new branch, example:
 
@@ -38,7 +40,7 @@ Some useful shell functions for creating git branch, sending pull request on Bit
     Switched to a new branch 'MyProject-1234-docs-fix-typos-in-readme'
     ```
 
-    Keeping the begging "MyProject-1234" unchanged because Jira will use it reference to Bitbucket.
+    Keeping the begging "MyProject-1234" unchanged because `Jira` will use it to reference to Bitbucket.
 
 
 * `bitbucket-push-current-branch`
